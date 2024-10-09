@@ -1,4 +1,4 @@
-# Credit-Card-Fraud-Detection-using-R
+# Credit Card Fraud Detection using R
 This project aims to address the critical issue of credit card fraud detection by leveraging the power of R, a versatile programming language widely used for data analysis and machine learning. By employing advanced analytical techniques and machine learning algorithms, we seek to build a reliable and efficient fraud detection system that can identify and prevent fraudulent credit card transactions in real-time.
 
 The primary objective of this project is to create a predictive model that can accurately classify transactions as either fraudulent or legitimate. To achieve this, we will utilize historical credit card transaction data, which includes a mixture of both fraudulent and non-fraudulent instances. By extracting meaningful patterns and features from the data, we will train a machine learning model capable of distinguishing between genuine transactions and fraudulent activities.
@@ -6,13 +6,13 @@ The primary objective of this project is to create a predictive model that can a
 For our R project we utilized historical credit card transaction data(creditcard.csv), which includes a mixture of both fraudulent and non-fraudulent instances.
 The dataset here contains transactions made by credit cards in September 2013 by european cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
 # Packages Required
- 	ranger
- 	caret
- 	rpart
- 	caTools
- 	pROC
- 	neuralnet
- 	gbm
+ranger<br/>
+caret<br/>
+rpart<br/>
+caTools<br/>
+pROC<br/>
+neuralnet<br/>
+gbm<br/>
 # Data Exploaration
 Firstly I imported the datasets that contain transactions made by credit cards. To perform analysis, reading of data set is done using command “read.csv”.Then I explored the data that is contained in the creditcard_data dataframe. After displaying the creditcard_data using the head() function as well as the tail() function, we proceeded to explore the other components of this dataframe.
 # Data Manipulation
